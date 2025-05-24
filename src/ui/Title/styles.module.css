@@ -1,0 +1,19 @@
+.title {
+    font-weight: 500;
+    width: max-content;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.filled {
+    background: #CDDECB;
+}
+.white {
+    background: #ffffff;
+}
+.left {
+    transform: rotate(-2deg);
+}
+.right {
+    transform: rotate(2deg);
+}

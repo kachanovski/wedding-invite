@@ -1,0 +1,9 @@
+.button {
+    background: #4A7265;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-family: FascinateInline-Regular, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}

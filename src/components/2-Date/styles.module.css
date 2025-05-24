@@ -1,0 +1,45 @@
+.wrapper {
+    position: relative;
+    background: #fff;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rotate_right {
+    transform: rotate(2deg);
+}
+
+.text {
+    text-align: center;
+    max-width: 640px;
+}
+
+.rings {
+    max-width: 1024px;
+    width: 100%;
+}
+
+.photo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #CDDECB;
+    width: 100%;
+}
+
+.image {
+    width: 500px;
+}

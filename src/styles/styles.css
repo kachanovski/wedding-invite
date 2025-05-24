@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+    /*color: #0B2298;*/
+    color: #4A7265;
+    /*color: #344B43;*/
+    font-family: FascinateInline-Regular, sans-serif;
+}
+
+@font-face {
+    font-family: 'FascinateInline-Regular';
+    src: local('FascinateInline-Regular'), url(../assets/fonts/Geologica_Auto-SemiBold.ttf  ) format('woff');
+}
+
+
+/*@font-face {*/
+/*    font-family: 'FascinateInline-Regular';*/
+/*    src: local('FascinateInline-Regular'), url(../assets/fonts/Onest-VariableFont_wght.ttf  ) format('woff');*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: 'FascinateInline-Regular';*/
+/*    src: local('FascinateInline-Regular'), url(../assets/fonts/PTSansCaption-Bold.ttf  ) format('woff');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'FascinateInline-Regular';*/
+/*    src: local('FascinateInline-Regular'), url(../assets/fonts/PTSansCaption-Regular.ttf  ) format('woff');*/
+/*}*/
+
+
+@font-face {
+    font-family: 'PoiretOne-Regular';
+    src: local('PoiretOne-Regular'), url(../assets/fonts/PoiretOne-Regular.ttf  ) format('woff');
+}

@@ -1,0 +1,21 @@
+.wrapper {
+    background: #CDDECB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    gap: 30px;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    text-align: center;
+    max-width: 640px;
+}

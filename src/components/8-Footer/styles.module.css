@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: 1024px;
+    background-image: url("./59.jpg");;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-position: bottom;
+}
+
+.title_container {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

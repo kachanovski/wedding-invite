@@ -1,0 +1,38 @@
+.wrapper {
+    background: #CDDECB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 20px;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 500;
+    width: max-content;
+    padding: 10px;
+    background: #ffffff;
+    font-size: 30px;
+}
+
+.rotate_right {
+    transform: rotate(2deg);
+}
+
+.rotate_left {
+    transform: rotate(-2deg);
+}
+
+.timing_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

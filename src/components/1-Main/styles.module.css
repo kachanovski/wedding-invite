@@ -1,0 +1,50 @@
+.wrapper {
+    height: 100vh;
+    position: relative;
+    background: #CDDECB;
+    background-image: url("../../../public/6.png");
+    background-position: right;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title_container {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    z-index: 2;
+    width: 470px;
+}
+
+.heart {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.title {
+    z-index: 2;
+    font-weight: 500;
+    width: max-content;
+    padding: 10px;
+    background: #ffffff;
+    font-size: 40px;
+}
+
+.rotate_right {
+    transform: rotate(5deg);
+}
+
+.rotate_left {
+    transform: rotate(-5deg);
+}
