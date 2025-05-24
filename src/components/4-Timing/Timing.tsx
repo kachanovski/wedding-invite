@@ -1,5 +1,6 @@
 import styles from './styles.module.css'
 import {TimingBlock} from "./TimingBlock/TimingBlock.tsx";
+import ss from './1.png'
 import first from './3.png'
 import second from './4.png'
 import third from './5.png'
@@ -20,11 +21,12 @@ export const Timing = () => {
             </div>
 
             <div className={styles.timing_container}>
-                <TimingBlock imagePath={first} time={'15:30'} title={'Сбор гостей'} />
-                <TimingBlock imagePath={second} time={'16:15'} title={'Торжественная \n церемония'} />
-                <TimingBlock imagePath={third} time={'17:15'} title={'Банкет'} />
-                <TimingBlock imagePath={four} time={'18:30'} title={'Фотосессия'} />
-                <TimingBlock imagePath={five} time={'00:00'} title={'Завершение вечера'} />
+              <img src={ss} className={styles.time_image}/>
+                {/*<TimingBlock imagePath={first} time={'15:30'} title={'Сбор гостей'} />*/}
+                {/*<TimingBlock imagePath={second} time={'16:15'} title={'Торжественная \n церемония'} />*/}
+                {/*<TimingBlock imagePath={third} time={'17:15'} title={'Банкет'} />*/}
+                {/*<TimingBlock imagePath={four} time={'18:30'} title={'Фотосессия'} />*/}
+                {/*<TimingBlock imagePath={five} time={'00:00'} title={'Завершение вечера'} />*/}
             </div>
 
         </div>
